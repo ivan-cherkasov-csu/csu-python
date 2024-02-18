@@ -1,5 +1,5 @@
 def add(a, b): return a+b
-def subs(a, b): return a-b
+def sub(a, b): return a-b
 def mul(a, b): return a*b
 def div(a, b): 
     if b == 0:
@@ -19,7 +19,7 @@ def parse_number(num_string):
     return parse_float(num_string) if i is None else i 
 
 def parse_op_name(op_name):
-    ops = { "*": mul, "/": div,"+": add, "-": subs}
+    ops = { "*": mul, "/": div,"+": add, "-": sub}
     return ops[op_name] if op_name in ops else None
 
 def parse_input(input_str):

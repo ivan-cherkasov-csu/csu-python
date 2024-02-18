@@ -14,7 +14,7 @@ def calc(expr):
         fail()
 
 if __name__ == '__main__':
-    print("Hello, this is a program calulates result of addition and subtraction of two numbers.")
+    print("Hello, this is a program calculates result of multiplication and division of two numbers.")
     print("input your math expression or '--help' to get help on supported expressions, or 'exit' to exit program")
     expr = ""
     while True:
