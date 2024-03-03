@@ -1,6 +1,7 @@
 import sys
 import math_parse
 
+
 def fail(): print("Cannot parse expression, incorrect input")
      
 def calc(expr):
