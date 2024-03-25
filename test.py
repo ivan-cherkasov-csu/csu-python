@@ -1,5 +1,6 @@
 from calendar import Month, month_name
 import os 
 os.system("cls")
-for month in Month:
-    print(month_name[month])
+foo = {3:"fizz", 5:"buzz"}
+print(foo.popitem())
+foo.append()
